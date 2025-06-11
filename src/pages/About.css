@@ -1,0 +1,78 @@
+/* src/pages/About.css */
+
+.about-section {
+  height: 100vh;
+  background-image: url('../assets/goldfondobca.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.map-container {
+  background-image: url('../assets/mapgoldd.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 750px;
+  width: 100%;
+  min-height: 60vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.about-title {
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+  color: #2c1f0f;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #3a2e1e;
+  text-align: center;
+  padding: 0 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .about-section{
+          background-position: center;
+    }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+
+  .map-container {
+    min-height: auto;
+    padding: 1.5rem;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.5rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .map-container {
+    padding: 1rem;
+  }
+}

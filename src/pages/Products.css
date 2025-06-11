@@ -1,0 +1,117 @@
+.products-background {
+  background-image: url('../assets/goldfondobca.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.products-page h2,
+.products-page  {
+  color: #fff;
+}
+
+.products-page .card {
+  background-color: #132c3f;
+  border-bottom: 1px solid #00bfff;
+  color: #fff;
+}
+
+
+.products-page {
+  padding-top: 170px;
+}
+
+.card {
+  border-radius: 18px;
+  margin-top: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de producto */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Título */
+.card-title {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.card-text{
+  color: #fff;
+}
+
+/* Botón activo del filtro */
+.btn-dark {
+  background-color: #00B4D8;
+  border-color: #00B4D8;
+}
+
+.btn-dark:hover {
+  background-color: #EDC531;
+  border-color: #EDC531;
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+.modal-header.celeste-bg {
+  background-color: #cceeff;
+}
+
+.modal-content img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.modal-body {
+  padding: 10px;
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn-danger{
+  background-color: #00B4D8; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none; /* Eliminar bordes predeterminados */
+  border-radius: 12px; /* Bordes redondeados */
+  padding: 15px 30px; /* Espaciado interno */
+  font-size: 1.2rem; /* Tamaño de fuente */
+  font-weight: 600; /* Negrita */
+  transition: all 0.3s ease; /* Transición suave */
+  box-shadow: 0 4px 10px rgba(0, 180, 216, 0.3); /* Sombra sutil */
+}
+
+.btn-danger:hover{
+  background-color: #009bb0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 180, 216, 0.4);
+  background-color: #009bb0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 180, 216, 0.4);
+}
+
+.modern-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 5px rgba(0, 180, 216, 0.3);
+}
+
+@media (max-width: 768px) {
+  .products-background{
+      background-position: center;
+  }
+}
