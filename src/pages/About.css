@@ -11,7 +11,7 @@
 }
 
 .about-card {
-  background: #fff;
+  background: #132c3f;
   max-width: 700px;
   width: 100%;
   border-radius: 16px;
@@ -30,11 +30,11 @@
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: #444;
+  color: #fff;
 }
 
 .about-btn {
-  background-color: #25D366;
+  background-color: #00bfff;
   color: white;
   border: none;
   padding: 12px 30px;
