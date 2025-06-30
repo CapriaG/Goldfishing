@@ -20,6 +20,10 @@ import brand14 from '../assets/sasame.png';
 import brand15 from '../assets/surfish.png';
 import fish from '../assets/fish.png';
 
+import producto1Img from '../assets/img1Destacada.jpg';
+import producto2Img from '../assets/img2Destacada.jpg';
+import producto3Img from '../assets/img3Destacada.jpg';
+
 import { Carousel, Button } from 'react-bootstrap';
 import { useEffect } from 'react';
 
@@ -116,9 +120,9 @@ const Home = () => {
           <Carousel interval={3000} controls={false}>
             <Carousel.Item>
               <div className="featured-carousel d-flex justify-content-center gap-4 mt-4">
-                <div className="product-card">Producto 1</div>
-                <div className="product-card">Producto 2</div>
-                <div className="product-card">Producto 3</div>
+                <div className="product-card"><img src={producto1Img} alt="Producto 1" className="img-fluid" /></div>
+                <div className="product-card"><img src={producto2Img} alt="Producto 2" className="img-fluid" /></div>
+                <div className="product-card"><img src={producto3Img} alt="Producto 2" className="img-fluid" /></div>
               </div>
             </Carousel.Item>
           </Carousel>

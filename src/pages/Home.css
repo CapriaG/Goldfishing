@@ -288,16 +288,21 @@ body {
 }
 
 .featured-carousel .product-card {
-  width: 300px;
+  max-width: 290px;
   height: 425px;
   background-color: #fff;
-  border-radius: 16px;
+  border-radius: 8px;
   color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 600;
   transition: transform 0.3s ease;
+  z-index: 10000;
+}
+
+.product-card img {
+  border-radius: 8px;
 }
 
 @media (max-width: 576px) {
@@ -338,6 +343,7 @@ body {
 .modern-button:active {
   transform: translateY(2px); /* Efecto al hacer clic */
   box-shadow: 0 2px 5px rgba(0, 180, 216, 0.3); /* Sombra al hacer clic */
+  z-index: 1;
 }
 
 
